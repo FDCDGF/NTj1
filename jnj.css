@@ -1,0 +1,154 @@
+body{
+    height: 2000px;margin: 0;background-image:linear-gradient(45deg,#039292,#60eddd,rgb(123, 147, 234),rgb(45, 45, 255),#039292,#60eddd);background-size: 500%;animation: identifier 30s linear infinite;
+}
+    @keyframes identifier {
+            0%{
+                background-position: 0% 50%;
+            }
+            50%{
+                background-position: 100% 50%;
+            }
+            100%{
+                background-position: 0% 50%;
+            }
+        }
+.no-underline{
+            margin: 0;
+            background-image: linear-gradient(#74f7bc);
+            background-size: 500%;
+            background-clip: text;
+            -webkit-background-clip: text;
+            text-decoration: none;
+}
+    .slide-fade{
+        transform: translateX(-50%);
+        opacity: 0;
+        animation: slideFade 1.2s ease forwards;
+    }
+    @keyframes slideFade{
+        to{
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    .slide{
+         transform: translateX(-50%);
+        opacity: 0;
+        animation: slideFade1 1.2s ease forwards;
+    }
+    @keyframes slideFade1{
+        to{
+            transform: translateX(0);
+            opacity: 0.5;
+        }
+    }
+      .super{
+        display: block;
+        border-radius: 30px;
+        width: 500px;
+        height: 300px;
+        background-image: linear-gradient(#95c6eb,#76c8f2,#51a8ff);
+        position: relative;
+        left: 220px;
+        opacity: 0.1;
+      }
+        .slideAAA{
+        transform: translateX(-50%);
+        opacity: 0;
+        animation: slideAAA 1.2s ease forwards;
+    }
+    @keyframes slideAAA{
+        to{
+            transform: translateX(0);
+            opacity: 1;
+        }
+}
+   .slideBBB{
+    transform: translateX(0%);
+        opacity: 0;
+        animation: slideBBB 3s ease forwards;
+    }
+    @keyframes slideBBB{
+        to{
+            transform: translateX(0);
+            opacity: 1;
+        }
+   }
+   .slideCCC{
+    transform: translateX(-10%);
+        opacity: 0;
+        animation: slideCCC 1.5s ease forwards;
+    }
+    @keyframes slideCCC{
+        to{
+            transform: translateX(0);
+            opacity: 1;
+        }
+   }
+  .superAAA{
+        display: block;
+        border-radius: 30px;
+        width: 500px;
+        height: 300px;
+        background-image: linear-gradient(#bcfbf2,#74f4df,#27fff8,#02ece8eb);
+        position: relative;
+        left: 670px;
+        top: -500px;
+      }
+      .slideDDD{
+        transform: translateX(50%);
+        opacity: 0;
+        animation: slideDDD 1.2s ease forwards;
+    }
+    @keyframes slideDDD{
+        to{
+            transform: translateX(0);
+            opacity: 1;
+        }
+}
+      .tian{
+        opacity: 
+        0.1;
+      }
+      .glass{
+        height: 290px;
+        width: 490px;
+        padding: 30px 50px;
+        border-radius: 50px;
+        background-color: rgba(134, 134, 134, 0.156);
+        backdrop-filter: blur(50px);
+        border-top: 1px solid #868989b4;
+        border-left: 1px solid #868989b4;
+        box-shadow: 3px 3px 3px #868989b4;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        font-family: Poppins, sans-serif;
+        font-size: 18px;
+        text-align: justify;
+        line-height: 185%;
+      }
+      .glassAAA{
+        height: 290px;
+        width: 490px;
+        padding: 30px 50px;
+        border-radius: 50px;
+        background-color: rgba(136, 237, 255, 0.116);
+        backdrop-filter: blur(50px);
+        border-top: 1px solid #868989b4;
+        border-left: 1px solid #868989b4;
+        box-shadow: 3px 3px 3px #868989b4;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        font-family: Poppins, sans-serif;
+        font-size: 18px;
+        text-align: justify;
+        line-height: 185%;
+      }
